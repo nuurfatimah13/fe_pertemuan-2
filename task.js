@@ -78,7 +78,7 @@ const update = (index, user) => {
  * Note: Ubah function menggunakan arrow function.
  */
 const destroy = (index) => {
-  users.splice(2,1);
+  users.splice(index,1);
   console.log(users);
 }
 
